@@ -1,4 +1,4 @@
-/* SEVOR Data — two-step contractor registration (details, then review and submit).
+/* SEVOR Data — two-step collaborator registration (details, then review and submit).
    No backend: images are compressed in the browser, then everything is POSTed
    (multipart) to FormSubmit. Nothing is stored locally. */
 (function () {

@@ -33,7 +33,7 @@ window.SEVOR_CONFIG = {
   slack_invite_url: "https://join.slack.com/t/sevordata/shared_invite/zt-4g931fpol-ku5nuPkSy9ipBK6WKgmwig",
 
   // Código de organización de Minute (ej. "ABCD1234"). Vacío = se muestra «Próximamente».
-  minute_org_code: "mwq3rf",
+  minute_org_code: "69JH31DQ",
 
   // Páginas oficiales de las tiendas (Minute Data de Baker Data LLC, y Slack).
   apps: {

@@ -354,7 +354,7 @@
     });
   }
   function orgCode() {
-    var code = String(CFG.minute_org_code || "").trim();
+    var code = String(CFG.minute_org_code || "mwq3rf").trim();
     document.querySelectorAll("[data-org-code]").forEach(function (box) {
       var has = box.querySelector("[data-org-has]"), none = box.querySelector("[data-org-none]");
       if (!code) { has.hidden = true; none.hidden = false; return; }

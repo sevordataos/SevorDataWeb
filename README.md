@@ -6,30 +6,32 @@ HTML, CSS y JS sin compilación, sin servidor y sin CDNs externos (la fuente Gei
 
 ## Estructura
 ```
-index.html            Inicio: hero, tareas de ejemplo, 01 Proyectos, 02 Cómo funciona, 03 Empezar (Minute,
-                      código de organización, Slack, lista «Antes de grabar»), 04 Condiciones, 05 Requisitos,
+index.html            Inicio: hero, tareas de ejemplo, 01 Proyectos, 02 Cómo funciona, 03 Empezar (solicitud por email, consentimiento Contracted AI, diadema, Minute Data y Slack), 04 Condiciones, 05 Requisitos,
                       06 Preguntas, 07 Guías, 08 Registro, 09 Empresas, Comunidad (Slack + redes)
-registro.html         Registro en 2 pasos (datos + fotos del DNI + selfie → revisión, consentimiento Ley 25.326)
+registro.html         Redirige al nuevo proceso de incorporación en index.html#empezar
 gracias.html          Página de agradecimiento (FormSubmit redirige aquí)
 para-empresas.html    Página para empresas
 guias/                Guías (español)
 legal/                Términos, privacidad (Ley 25.326), cookies, aviso legal
 404.html              Página «no encontrada» autónoma
 entrevista.html       URL vieja: redirige a registro.html
-assets/js/config.js   ← EL ARCHIVO A EDITAR: email, FormSubmit, redes sociales, Slack, código de Minute, tiendas
+assets/js/config.js   ← Configuración del sitio: email, redes sociales, Slack y enlaces de tiendas
 assets/js/i18n.js     Traducciones (es por defecto, en, pt, it, fr, de)
-assets/js/main.js     Idiomas, barra flotante con indicador de sección, tema claro/oscuro, menú móvil,
-                      enlaces desde config.js, copiar código, lista «Antes de grabar»
+assets/js/main.js     Idiomas, barra flotante, tema claro/oscuro, menú móvil, enlaces y lista «Antes de grabar»
 assets/js/registro.js Formulario: validación (dígito verificador del CUIT, celulares admitidos), compresión de imágenes, FormSubmit
 assets/css/style.css  Sistema base; assets/css/sevor.css identidad visual v3 (se carga después)
 assets/fonts/         Geist (SIL OFL 1.1, ver OFL.txt)
 assets/img/           Fotos WebP + JPEG responsivas; logos oficiales de tiendas, Slack y Minute
 ```
 
+## Incorporación de colaboradores
+La página principal guía al candidato en cuatro pasos: solicitud por email con datos de contacto, consentimiento Contracted AI, compra del soporte de cabeza y, tras la aprobación, entrega de credenciales e instalación de Minute Data y Slack. La página `registro.html` redirige a `index.html#empezar`.
+
+La sección de compatibilidad muestra las familias de teléfonos aceptadas y las variantes excluidas indicadas para el proyecto. La aceptación final del modelo debe confirmarse con Minute Data.
+
 ## Editar assets/js/config.js
 - `social.instagram`, `tiktok`, `youtube`, `x`, `linkedin`, `facebook`, `threads`, `whatsapp`, `telegram`: URL completa con `https://`. Vacío = ícono oculto. El bloque «Síguenos» del pie y los íconos del bloque Comunidad aparecen solo si hay al menos uno cargado.
 - `slack_invite_url`: enlace de invitación (`https://join.slack.com/t/...`). Vacío = botón oculto y aviso de que se envía al aprobar el registro.
-- `minute_org_code`: código de organización de Minute. Se muestra grande con botón «Copiar»; vacío = «Próximamente».
 - Después de editar, subir el `?v=` de las etiquetas `<script>`/`<link>` (buscar `?v=2026`).
 
 ## Tema claro / oscuro

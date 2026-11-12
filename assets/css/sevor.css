@@ -586,3 +586,18 @@ html[data-theme="dark"] .section--night { background: var(--paper-2); border-blo
 .sx-onboard-app p { margin:.2rem 0 .4rem; color:var(--ink-2); font-size:.92rem; }
 .sx-onboard-app .store-badges { flex-wrap:wrap; }
 @media(max-width:760px) { .sx-onboard-flow { grid-template-columns:1fr; } .sx-onboard-cta { width:100%; } }
+
+
+/* Referral CTA: visible at first contact, without competing with the main signup. */
+.sx-referral-strip { position:relative; z-index:2; background:var(--surface); border-bottom:1px solid var(--line); }
+.sx-referral-strip .container { display:flex; align-items:center; justify-content:center; gap:.65rem 1rem; flex-wrap:wrap; padding:.55rem 1rem; text-align:center; font-size:.875rem; color:var(--ink-2); }
+.sx-referral-strip a { color:var(--celeste-ink); font-weight:650; text-decoration:underline; text-underline-offset:3px; }
+.sx-referral-hero { border:1px solid rgba(255,255,255,.42)!important; color:#fff!important; background:rgba(255,255,255,.1)!important; }
+.sx-app-row { display:flex; align-items:flex-start; gap:1rem; padding:.95rem 0; border-top:1px solid var(--line); }
+.sx-app-logo { display:block; flex:0 0 56px; width:56px; height:56px; border-radius:14px; object-fit:cover; background:#fff; box-shadow:0 0 0 1px var(--line); }
+.sx-app-logo--slack { object-fit:contain; padding:4px; }
+.sx-app-copy { min-width:0; display:grid; gap:.35rem; }
+.sx-app-copy h4 { margin:0; }
+.sx-app-copy p { margin:0; }
+.sx-app-copy .store-badges { margin-top:.35rem; }
+@media(max-width:600px){ .sx-referral-strip .container { font-size:.82rem; gap:.3rem .55rem; } .sx-app-row { gap:.75rem; } .sx-app-logo { width:48px;height:48px;flex-basis:48px;border-radius:12px; } .sx-app-copy .store-badges { gap:.4rem; } .sx-app-copy .store-badge img { height:34px; } }

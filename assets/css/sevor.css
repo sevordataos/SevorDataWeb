@@ -553,3 +553,20 @@ html[data-theme="dark"] .section--night { background: var(--paper-2); border-blo
   body { transition: none; }
 }
 .cap-list { border-top-color: var(--line-strong); }
+
+
+/* Requisitos de dispositivos para incorporacion Minute Data */
+.sx-device-card { margin: 1.5rem 0; padding: clamp(1.1rem, 3vw, 1.75rem); border: 1px solid var(--line-strong); border-radius: var(--radius-lg, 22px); background: var(--surface); }
+.sx-device-card__head { max-width: 58rem; margin-bottom: 1.1rem; }
+.sx-device-card__head h3 { margin: .25rem 0 .55rem; }
+.sx-device-card__head > p:last-child { color: var(--ink-2); }
+.sx-device-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }
+.sx-device-item { min-width: 0; padding: 1rem; border: 1px solid var(--line); border-radius: 16px; background: var(--paper-2); }
+.sx-device-item h4 { margin: 0 0 .7rem; font-size: 1rem; }
+.sx-device-item h4 span { display: inline-grid; place-items: center; width: 1.35rem; height: 1.35rem; margin-right: .35rem; border-radius: 50%; color: #07120d; background: #b8e35a; font-size: .85rem; }
+.sx-device-range { margin: 0 0 .45rem; font-weight: 750; color: var(--ink); }
+.sx-device-exclude { margin: 0; color: var(--ink-2); font-size: .92rem; }
+.sx-device-warning { margin-top: 1rem; padding: .9rem 1rem; border-left: 3px solid #e4b34e; border-radius: 8px; background: var(--paper-2); color: var(--ink-2); }
+.sx-device-warning strong { color: var(--ink); }
+.sx-device-footnote { margin: .8rem 0 0; color: var(--ink-3, var(--ink-2)); font-size: .82rem; }
+@media (max-width: 760px) { .sx-device-grid { grid-template-columns: 1fr; } }

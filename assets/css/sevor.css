@@ -570,3 +570,19 @@ html[data-theme="dark"] .section--night { background: var(--paper-2); border-blo
 .sx-device-warning strong { color: var(--ink); }
 .sx-device-footnote { margin: .8rem 0 0; color: var(--ink-3, var(--ink-2)); font-size: .82rem; }
 @media (max-width: 760px) { .sx-device-grid { grid-template-columns: 1fr; } }
+
+
+/* SEVOR onboarding flow */
+.sx-onboard-flow { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; margin:1.5rem 0; }
+.sx-onboard-card { min-width:0; padding:clamp(1.1rem,2.4vw,1.65rem); border:1px solid var(--line); border-radius:20px; background:var(--paper-2); }
+.sx-onboard-card h3 { margin:.25rem 0 .65rem; font-size:clamp(1.25rem,2.5vw,1.65rem); }
+.sx-onboard-card>p:not(.sx-req__step) { color:var(--ink-2); }
+.sx-onboard-data { display:grid; gap:.45rem; margin:1rem 0 1.2rem; padding-left:1.25rem; color:var(--ink); }
+.sx-onboard-cta { display:inline-flex; align-items:center; justify-content:center; gap:.5rem; margin-top:.35rem; text-align:center; }
+.sx-onboard-cta--market { border-color:#e7c600; background:#f5d90a; color:#171717; }
+.sx-onboard-note { margin:.9rem 0 0; color:var(--ink-3,var(--ink-2)); font-size:.86rem; line-height:1.55; }
+.sx-onboard-app { display:grid; gap:.45rem; padding:.9rem 0; border-top:1px solid var(--line); }
+.sx-onboard-app h4 { margin:0; font-size:1rem; }
+.sx-onboard-app p { margin:.2rem 0 .4rem; color:var(--ink-2); font-size:.92rem; }
+.sx-onboard-app .store-badges { flex-wrap:wrap; }
+@media(max-width:760px) { .sx-onboard-flow { grid-template-columns:1fr; } .sx-onboard-cta { width:100%; } }

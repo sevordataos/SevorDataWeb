@@ -34,7 +34,7 @@
         imagesizes="(min-width: 1180px) 1120px, 96vw">
   <link rel="preload" as="font" type="font/woff2" href="assets/fonts/geist-latin.woff2" crossorigin>
   <link rel="stylesheet" href="assets/css/style.css?v=20261111">
-  <link rel="stylesheet" href="assets/css/sevor.css?v=20261112">
+  <link rel="stylesheet" href="assets/css/sevor.css?v=20261113">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -282,68 +282,73 @@
       </div>
     </section>
 
-    <!-- ============ 03 GET STARTED: MINUTE + ORG CODE + SLACK ============ -->
+    <!-- ============ 03 INCORPORACIÓN SEVOR DATA ============ -->
     <section class="sx-section" id="empezar" aria-labelledby="start-title">
       <div class="container">
         <header class="sx-head reveal">
-          <p class="sx-eyebrow"><span class="sx-num" aria-hidden="true">03</span><span data-i18n="start.eyebrow">Empezar</span></p>
-          <h2 id="start-title" data-i18n="start.h2">App Minute, código de organización y Slack</h2>
-          <p class="lead" data-i18n="start.lead">Todo lo que necesitas para grabar desde casa, en un solo lugar.</p>
+          <p class="sx-eyebrow"><span class="sx-num" aria-hidden="true">03</span> INCORPORACIÓN</p>
+          <h2 id="start-title">Comenzá a trabajar con SEVOR Data</h2>
+          <p class="lead">Un proceso simple y acompañado para incorporarte al equipo de grabación de Minute Data.</p>
         </header>
-        <div class="sx-start">
-          <div class="sx-start__cards">
-            <article class="sx-req reveal">
-              <p class="sx-req__step"><span data-i18n="start.step">Paso</span> 1</p>
-              <div class="sx-req__title"><img class="sx-app-icon" src="assets/img/brands/minute-app-icon.png" width="44" height="44" alt="" aria-hidden="true"><div><h3 data-i18n="start.minute.t">Descarga la app Minute</h3><p data-i18n="start.minute.d">Para iPhone y Android. Búscala como «Minute Data».</p></div></div>
+
+        <div class="sx-onboard-flow">
+          <article class="sx-onboard-card reveal">
+            <p class="sx-req__step">PASO 1</p>
+            <h3>Solicitá tu ingreso</h3>
+            <p>Escribinos para iniciar tu postulación. En el correo incluí estos datos:</p>
+            <ul class="sx-onboard-data">
+              <li>Nombre y apellido completo</li>
+              <li>CUIT</li>
+              <li>Correo electrónico de contacto</li>
+              <li>Número de teléfono con característica</li>
+            </ul>
+            <a class="btn btn-primary sx-onboard-cta" href="mailto:contacto.sevor@gmail.com?subject=Solicitud%20de%20ingreso%20-%20SEVOR%20Data&amp;body=Hola%2C%20quiero%20postularme%20para%20trabajar%20con%20SEVOR%20Data.%0A%0ANombre%20y%20apellido%20completo%3A%0ACUIT%3A%0ACorreo%20electr%C3%B3nico%3A%0ATel%C3%A9fono%3A%0A%0AGracias.">Enviar solicitud por correo</a>
+            <p class="sx-onboard-note"><strong>Privacidad:</strong> enviá estos datos únicamente si decidís postularte. Se utilizarán para gestionar tu solicitud y el proceso de incorporación. No adjuntes fotos de documentos ni contraseñas.</p>
+          </article>
+
+          <article class="sx-onboard-card reveal d1">
+            <p class="sx-req__step">PASO 2</p>
+            <h3>Completá el consentimiento</h3>
+            <p>Después de revisar tu solicitud, te enviaremos por correo el enlace para completar el formulario de consentimiento de Contracted AI.</p>
+            <a class="btn sx-onboard-cta" href="https://contracted.ai/team-consent/ua-4vdAhNGKZB3q1bjbW3m_KX4bjtEiJ" target="_blank" rel="noopener noreferrer">Abrir formulario de consentimiento <span aria-hidden="true">↗</span></a>
+            <p class="sx-onboard-note">Completá este paso solamente cuando SEVOR confirme tu postulación y te indique que continúes.</p>
+          </article>
+
+          <article class="sx-onboard-card reveal d2">
+            <p class="sx-req__step">PASO 3</p>
+            <h3>Conseguí tu diadema soporte</h3>
+            <p>Para grabar necesitás una vincha o diadema ajustable que sostenga el teléfono a la altura de la frente y permita orientar la cámara hacia tus manos. No sirven los soportes de pecho ni los soportes sin agarre para teléfono.</p>
+            <a class="btn sx-onboard-cta sx-onboard-cta--market" href="https://www.mercadolibre.com.ar/up/MLAU5668534479?pdp_filters=item_id:MLA4132012604#origin=share&amp;sid=share&amp;wid=MLA4132012604&amp;action=copy" target="_blank" rel="noopener noreferrer">Ver diadema en Mercado Libre <span aria-hidden="true">↗</span></a>
+            <p class="sx-onboard-note">Revisá el precio, la disponibilidad, el envío y que el producto incluya un soporte firme para tu modelo de teléfono antes de comprar.</p>
+          </article>
+
+          <article class="sx-onboard-card reveal d3">
+            <p class="sx-req__step">PASO 4</p>
+            <h3>Recibí tus accesos e instalá las aplicaciones</h3>
+            <p>Una vez aprobados los pasos anteriores, SEVOR te enviará por correo tu cuenta corporativa, una contraseña temporal y las instrucciones para ingresar. No compartas tus credenciales.</p>
+            <div class="sx-onboard-app">
+              <div><h4>Minute Data</h4><p>Aplicación donde realizarás las grabaciones.</p></div>
               <div class="store-badges">
-                <a class="store-badge" data-cfg-href="minute_ios" href="#" target="_blank" rel="noopener"><img src="assets/img/brands/app-store-badge-es.svg" width="120" height="40" alt="Descárgalo en el App Store"></a>
-                <a class="store-badge" data-cfg-href="minute_android" href="#" target="_blank" rel="noopener"><img src="assets/img/brands/google-play-badge-es.png" width="135" height="40" alt="Disponible en Google Play"></a>
+                <a class="store-badge" data-cfg-href="minute_ios" href="#" target="_blank" rel="noopener"><img src="assets/img/brands/app-store-badge-es.svg" width="120" height="40" alt="Descargar Minute Data en App Store"></a>
+                <a class="store-badge" data-cfg-href="minute_android" href="#" target="_blank" rel="noopener"><img src="assets/img/brands/google-play-badge-es.png" width="135" height="40" alt="Descargar Minute Data en Google Play"></a>
               </div>
-            </article>
-            <article class="sx-req sx-req--code reveal d1" data-org-code>
-              <p class="sx-req__step"><span data-i18n="start.step">Paso</span> 2</p>
-              <h3 id="org-code-title" data-i18n="start.code.t">Código de organización</h3>
-              <p data-i18n="start.code.d">Ingrésalo en Minute, en «Join Organization».</p>
-              <div class="sx-code" role="group" aria-labelledby="org-code-title">
-                <div class="sx-code__row" data-org-has>
-                  <output class="sx-code__value" data-org-value>69JH31DQ</output>
-                  <button type="button" class="btn btn-sm sx-code__copy" data-org-copy><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="5" y="5" width="8.5" height="8.5" rx="1.6"/><path d="M10.5 5V3.6A1.1 1.1 0 0 0 9.4 2.5H3.6a1.1 1.1 0 0 0-1.1 1.1v5.8a1.1 1.1 0 0 0 1.1 1.1H5"/></svg><span data-i18n="org.copy">Copiar</span></button>
-                </div>
-                <p class="sx-code__soon" data-org-none hidden><span class="sx-dot sx-dot--amber" aria-hidden="true"></span><span>Próximamente</span></p>
-                <p class="sx-code__status" data-org-status role="status" aria-live="polite"></p>
+            </div>
+            <div class="sx-onboard-app">
+              <div><h4>Slack</h4><p>Canal de comunicación, avisos y soporte de SEVOR Data.</p></div>
+              <div class="store-badges">
+                <a class="store-badge" data-cfg-href="slack_ios" href="#" target="_blank" rel="noopener"><img src="assets/img/brands/app-store-badge-es.svg" width="120" height="40" alt="Descargar Slack en App Store"></a>
+                <a class="store-badge" data-cfg-href="slack_android" href="#" target="_blank" rel="noopener"><img src="assets/img/brands/google-play-badge-es.png" width="135" height="40" alt="Descargar Slack en Google Play"></a>
               </div>
-            </article>
-            <article class="sx-req reveal d2">
-              <p class="sx-req__step"><span data-i18n="start.step">Paso</span> 3</p>
-              <div class="sx-req__title"><span class="sx-app-icon sx-app-icon--slack"><img src="assets/img/brands/slack-mark.svg" width="26" height="26" alt="" aria-hidden="true"></span><div><h3 data-i18n="start.slack.t">Únete al Slack de SEVOR Data</h3><p data-i18n="start.slack.d">Avisos, soporte y novedades de cada proyecto.</p></div></div>
-              <a class="btn btn-slack" data-cfg-href="slack_invite" href="#" target="_blank" rel="noopener" hidden><img class="sx-slack-mark" src="assets/img/brands/slack-mark.svg" width="20" height="20" alt="" aria-hidden="true"><span data-i18n="slack.join">Unirme al Slack de SEVOR Data</span><span class="visually-hidden" data-i18n="new.tab">(se abre en una pestaña nueva)</span></a>
-              <p class="small muted" data-cfg-ifnot="slack_invite" data-i18n="slack.soon">El enlace de invitación al Slack te lo enviamos al aprobar tu registro.</p>
-              <div class="store-badges store-badges--sm">
-                <a class="store-badge" data-cfg-href="slack_ios" href="#" target="_blank" rel="noopener"><img src="assets/img/brands/app-store-badge-es.svg" width="120" height="40" alt="Slack en el App Store"></a>
-                <a class="store-badge" data-cfg-href="slack_android" href="#" target="_blank" rel="noopener"><img src="assets/img/brands/google-play-badge-es.png" width="135" height="40" alt="Slack en Google Play"></a>
-                <a class="link small" data-cfg-href="slack_desktop" href="#" target="_blank" rel="noopener" data-i18n="slack.desktop">Slack para computadora</a>
-              </div>
-            </article>
-            <p class="small muted sx-start__note" data-i18n="apps.note">Minute Data es una app de terceros (Baker Data LLC). SEVOR Data no está afiliada a Minute ni a Slack.</p>
-          </div>
-          <div class="sx-start__steps reveal d1">
-            <h3 class="sx-start__steps-h" data-i18n="start.steps.h">Primeros pasos</h3>
-            <ol class="onboard-steps" role="list">
-            <li class="onboard-step"><span class="onboard-step__num" aria-hidden="true">1</span><div><h3 data-i18n="org.s1.t">Compra una vincha soporte para el celular</h3><p data-i18n="org.s1.d">Una diadema con soporte de ángulo regulable, para inclinar el celular hacia tus manos. Corre por tu cuenta.</p></div></li>
-            <li class="onboard-step"><span class="onboard-step__num" aria-hidden="true">2</span><div><h3 data-i18n="org.s2.t">Instala la app Minute</h3><p data-i18n="org.s2.d">Búscala como «Minute Data» en App Store o Google Play.</p></div></li>
-            <li class="onboard-step"><span class="onboard-step__num" aria-hidden="true">3</span><div><h3 data-i18n="org.s3.t">Crea tu cuenta</h3><p data-i18n="org.s3.d">Regístrate en la app con tu email.</p></div></li>
-            <li class="onboard-step"><span class="onboard-step__num" aria-hidden="true">4</span><div><h3 data-i18n="org.s4.t">Ingresa el código de organización</h3><p data-i18n="org.s4.d">En la app, toca «Join Organization» y escribe el código de SEVOR Data.</p></div></li>
-            <li class="onboard-step"><span class="onboard-step__num" aria-hidden="true">5</span><div><h3 data-i18n="org.s5.t">Únete al Slack de SEVOR Data</h3><p data-i18n="org.s5.d">Allí recibes avisos, soporte y novedades de cada proyecto.</p></div></li>
-            <li class="onboard-step"><span class="onboard-step__num" aria-hidden="true">6</span><div><h3 data-i18n="org.s6.t">Graba tu primera tarea de prueba</h3><p data-i18n="org.s6.d">Celular en horizontal, manos visibles y buena luz. La revisamos y te damos indicaciones.</p></div></li>
-          </ol>
-          </div>
+              <a class="link small" data-cfg-href="slack_invite" href="#" target="_blank" rel="noopener" hidden>Unirme al espacio de SEVOR Data en Slack ↗</a>
+            </div>
+          </article>
         </div>
 
         <section class="sx-device-card reveal" aria-labelledby="device-compat-title">
           <div class="sx-device-card__head">
-            <p class="sx-eyebrow">REQUISITO DEL EQUIPO</p>
-            <h3 id="device-compat-title">Verificá que tu celular sea compatible</h3>
-            <p>Para participar en las grabaciones con Minute Data necesitás un teléfono de una de estas familias. La compatibilidad final puede depender del modelo exacto, la cámara y la validación de la tarea en Minute.</p>
+            <p class="sx-eyebrow">REQUISITO OBLIGATORIO</p>
+            <h3 id="device-compat-title">Verificá que tu celular sea compatible antes de postularte</h3>
+            <p>La lista de referencia para este proceso incluye las siguientes familias y variantes. Comprobá el nombre completo del modelo en Ajustes antes de comprar el soporte.</p>
           </div>
           <div class="sx-device-grid">
             <article class="sx-device-item">
@@ -362,21 +367,9 @@
               <p class="sx-device-exclude"><strong>No compatibles:</strong> variantes FE (Fan Edition).</p>
             </article>
           </div>
-          <div class="sx-device-warning">
-            <strong>¿Tenés otro modelo?</strong> Si tu teléfono no aparece en esta lista, no lo consideres compatible todavía. Consultá con SEVOR antes de comprar la diadema o iniciar una grabación. Instalar Minute Data no garantiza que el dispositivo sea aceptado.
-          </div>
-          <p class="sx-device-footnote">La aceptación puede variar según la variante regional y los requisitos vigentes del proyecto. Confirmá el modelo completo y la cámara dentro de Minute Data antes de realizar una compra.</p>
+          <div class="sx-device-warning"><strong>¿Tu modelo no aparece o pertenece a una variante excluida?</strong> No compres la diadema ni avances con la postulación hasta consultar con SEVOR. La compatibilidad definitiva depende de la validación de Minute Data y de los requisitos vigentes del proyecto.</div>
+          <p class="sx-device-footnote">La lista reproduce los modelos indicados para este proyecto y no constituye una garantía técnica del fabricante de Minute Data. Confirmá la aceptación del modelo exacto antes de realizar gastos.</p>
         </section>
-
-        <div class="sx-checkcard reveal" aria-labelledby="chk-title">
-          <div class="sx-checkcard__intro">
-            <p class="sx-eyebrow"><span data-i18n="chk.eyebrow">Antes de grabar</span></p>
-            <h3 id="chk-title" data-i18n="chk.h">Revisa esto antes de cada grabación</h3>
-            <p class="muted" data-i18n="chk.lead">Marca cada punto. No se guarda nada: es solo una ayuda.</p>
-            <p class="sx-checkcard__count" data-chk-count aria-live="polite"></p>
-          </div>
-          <ul class="sx-checklist" role="list"><li><label class="sx-check"><input type="checkbox" data-chk><span class="sx-check__box" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3.5 8.4 2.9 2.9 6-6.3"/></svg></span><span data-i18n="chk.1">Celular en horizontal (apaisado)</span></label></li><li><label class="sx-check"><input type="checkbox" data-chk><span class="sx-check__box" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3.5 8.4 2.9 2.9 6-6.3"/></svg></span><span data-i18n="chk.2">Vincha a la altura de la frente, inclinada hacia tus manos</span></label></li><li><label class="sx-check"><input type="checkbox" data-chk><span class="sx-check__box" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3.5 8.4 2.9 2.9 6-6.3"/></svg></span><span data-i18n="chk.3">Manos visibles durante toda la tarea</span></label></li><li><label class="sx-check"><input type="checkbox" data-chk><span class="sx-check__box" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3.5 8.4 2.9 2.9 6-6.3"/></svg></span><span data-i18n="chk.4">Lugar bien iluminado</span></label></li><li><label class="sx-check"><input type="checkbox" data-chk><span class="sx-check__box" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3.5 8.4 2.9 2.9 6-6.3"/></svg></span><span data-i18n="chk.5">Clips de 1 a 30 minutos</span></label></li></ul>
-        </div>
       </div>
     </section>
 
